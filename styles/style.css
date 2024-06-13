@@ -101,7 +101,7 @@ button:active,
 }
 
 .result {
-  margin-top: 78px;
+  margin-top: 79px;
 }
 
 .result__video-container {
@@ -124,6 +124,7 @@ button:active,
 .search-form {
   display: flex;
   justify-content: space-between;
+  height: 54px;
 }
 
 .search-form__fieldset:nth-child(2) {
@@ -168,7 +169,7 @@ button:active,
 .search-form__fieldset-title {
   font-weight: 400;
   font-size: inherit;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 
 /* псевдо чекбоксы */
@@ -208,7 +209,7 @@ input[type="checkbox"]:checked + span::before {
 .content__details {
   display: flex;
   flex-direction: column;
-  gap: 26px;
+  gap: 22px;
   width: 399px;
 }
 
@@ -242,13 +243,13 @@ input[type="checkbox"]:checked + span::before {
 }
 
 .title {
-  padding-top: 2px;
   font-family: "Oswald";
+  font-style: normal;
   font-weight: 700;
   font-size: 75px;
   line-height: 94%;
   text-transform: uppercase;
-  height: 210px;
+  margin-top: 6px;
 }
 
 .content__accent {
@@ -323,7 +324,7 @@ button {
   line-height: 22px;
   font-family: inherit;
   padding: 0;
-  margin-bottom: 2px;
+
 }
 
 /* Псевдоклассы button */
@@ -343,9 +344,10 @@ button:focus-visible {
 
 .search-form__submit-button {
   max-width: 194px;
-  margin-top: 20px;
+  margin-top: 18px;
 }
 
 .more-button {
   width: 100%;
+  margin-bottom: 2px;
 }
