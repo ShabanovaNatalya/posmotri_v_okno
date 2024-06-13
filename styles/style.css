@@ -110,13 +110,12 @@ button:active,
   width: 711px;
   height: 386px;
   overflow: hidden;
-  padding-bottom: 54.29%;
   margin-bottom: 16px;
 }
 
 .result__video {
   width: 100%;
-  height: 386px;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -126,14 +125,10 @@ button:active,
   height: 54px;
 }
 
-.search-form__fieldset:nth-child(2) {
-  margin-left: 3px;
-}
-
 .search-form__checkbox-list {
-  margin-top: -8px;
+  min-width: 212px;
   display: flex;
-  gap: 11px;
+  gap: 15px;
 }
 
 .search-form__textfield {
@@ -147,7 +142,6 @@ button:active,
   width: 225px;
   height: 27px;
   color: #fff;
-  padding: 3px;
 }
 
 .search-form__textfield:active {
@@ -203,7 +197,6 @@ input[type="checkbox"]:checked + span::before {
   width: fit-content;
   font-weight: 400;
   font-size: 18px;
-  padding: 2px;
 }
 
 .content__details {
@@ -343,7 +336,7 @@ button:focus-visible {
 
 .search-form__submit-button {
   max-width: 194px;
-  margin-top: 18px;
+  margin-top: 20px;
 }
 
 .more-button {
