@@ -270,7 +270,7 @@ input[type="checkbox"]:checked + span::before {
   display: grid;
   grid-template-columns: auto 194px;
   height: 107px;
-  }
+}
 
 .content__video-card:active {
   background: #545050;
