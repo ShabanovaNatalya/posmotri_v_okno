@@ -101,7 +101,7 @@ button:active,
 }
 
 .result {
-  margin-top: 79px;
+  margin-top: 76px;
 }
 
 .result__video-container {
@@ -128,7 +128,7 @@ button:active,
 .search-form__checkbox-list {
   min-width: 212px;
   display: flex;
-  gap: 15px;
+  gap: 13px;
 }
 
 .search-form__textfield {
@@ -155,14 +155,14 @@ button:active,
 }
 
 .search-form__label:has(:focus-visible) {
-  border: 1px solid #ffffff;
-  padding: 3px;
+  outline: #ffffff solid 1px !important;
+  outline-offset: 2px;
 }
 
 .search-form__fieldset-title {
   font-weight: 400;
   font-size: inherit;
-  margin-bottom: 6px;
+  margin-bottom: 3px;
 }
 
 /* псевдо чекбоксы */
@@ -174,6 +174,8 @@ button:active,
   border: solid white 1px;
   width: 19px;
   height: 19px;
+  margin-bottom: 2px;
+  margin-left: 2px;
 }
 
 .search-form__textfield,
@@ -202,7 +204,7 @@ input[type="checkbox"]:checked + span::before {
 .content__details {
   display: flex;
   flex-direction: column;
-  gap: 22px;
+  gap: 20px;
   width: 399px;
 }
 
@@ -232,7 +234,8 @@ input[type="checkbox"]:checked + span::before {
 }
 
 .content__card-link:focus-visible {
-  border: 1px solid #ffffff;
+  outline: #ffffff solid 1px !important;
+  outline-offset: 1px;
 }
 
 .title {
@@ -252,7 +255,7 @@ input[type="checkbox"]:checked + span::before {
 
 .content__accent_hyphen {
   position: relative;
-  top: -10px;
+  bottom: 6px;
   left: 3px;
 }
 
@@ -303,6 +306,7 @@ input[type="checkbox"]:checked + span::before {
   font-size: 18px;
   line-height: 16px;
   color: #ffffff;
+  white-space: normal;
 }
 
 button {
@@ -331,12 +335,18 @@ button:focus {
 }
 
 button:focus-visible {
-  border: double #ffffff;
+  outline: #ffffff solid 1px !important;
+  outline-offset: 1px;
+}
+
+.more-button:focus-visible {
+  width: calc(100% - 4px);
+  margin: 2px;
 }
 
 .search-form__submit-button {
   max-width: 194px;
-  margin-top: 20px;
+  margin-top: 18px;
 }
 
 .more-button {
